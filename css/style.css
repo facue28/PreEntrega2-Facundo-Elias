@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+
+}
+
+/* HEADER */
+
+.nav-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-background{
+    background-color: rgba(64, 0, 128, 0.2);
+
+}
+
+.menu-ubicacion{
+    justify-content: center;
+} 
+
+.navbar-nav li{
+    padding: 1rem;
+}
+
+.img-logo{
+    width: 20rem;
+}
+
+.texto-nav{
+    font-size: 1.7rem;
+}
+
+.navbar-nav a {
+    color:#400080 
+}
+
+.navbar-nav a:hover{
+    color: #bb77ff;
+}
+
+/* NOTICIAS */
+
+.cart-noticia{
+    display: flex;
+    justify-content: center;
+}
