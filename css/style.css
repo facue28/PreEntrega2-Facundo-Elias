@@ -47,7 +47,29 @@ html{
 
 /* NOTICIAS */
 
+
 .cart-noticia{
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap
+}
+
+.card-noticia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot-noticia{
+    display: flex;
+    margin-top: auto;
+    background-color: #0a58ca;
+    padding: 5px 10px;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+}
+
+.img-tam{
+    aspect-ratio: 3/2;
+    object-fit: cover;
 }
