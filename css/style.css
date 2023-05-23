@@ -41,10 +41,8 @@ body{
 
 
 .container-ubicacion{
-    background-color:#e4d9ff;
-    /* background-image: url(../img/imagen-nav.jpg);
-    background-size: cover; */
-    display: flex;
+    background-color:rgba(126, 127, 154, 0.7);
+    display: flex; 
     justify-content: space-between;
 }
 
@@ -184,7 +182,7 @@ body{
     display: flex;
     width: 100%;
     height: 15rem;
-    background-color:#e4d9ff;
+    /* background-color:#e4d9ff; */
     background-color:#7E7F9A;
     opacity: 0.7;
     justify-content: center;
@@ -288,8 +286,6 @@ body{
 }
 
 .img-sobre-blog{
-    width: 40rem;
-    height:50rem;
     aspect-ratio: 2/3;
     object-fit: cover;
 }
@@ -298,6 +294,17 @@ body{
     width:10rem;
 }
 /* RESTAURANES */
+.map-tamaño{
+    aspect-ratio: 4/4;
+    width: 100%;
+}
+
+.col-tamaño{
+    padding: 5rem;
+}
+.background-row{
+    background-color: #F3D9DC;
+}
 /* MEDIA QUERY */
 
 @media screen and (max-width:990px) {
