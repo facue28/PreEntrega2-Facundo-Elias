@@ -58,47 +58,67 @@
     </header>
     <!-- HEADER -->
     <main>
-        <h2>Contactanos</h2>
-        
-            
-            <fieldset>
-                <legend>Contactanos</legend>
-                <form>
-                    <!-- Datos usuario -->
-                    <label for="name">Nombre:</label>
-                    <input type="text" name="name" id="name" required><br>
-                    <label for="lastname">Apellido:</label>
-                    <input type="text" name="lastname" id="lastname" required><br>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required><br><br>
-                        <fieldset>
-                            <legend>¿Queres recibir nuevas noticias?</legend>
-                            <select name="noticias" id="">
-                                <option value="Si">Si</option>
-                                <option value="No">No</option>
-                            </select><br><br>
-                        </fieldset>
-                <!-- Texto de msj -->
-            <label for="textarea">Mensaje:</label><br>
-            <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
-            <!-- Botones -->
-            <input type="reset" value="Borrar Todo"><br><br>
-            <input type="submit" value="Enviar"><br>
-            
-                    </form>    
-            </fieldset>
-            
+
+        <div class="container my-5 ">
+            <form class="row text-center w-50 p-3s mx-auto background-color container-contacto">
+                <div class="container"><h1 class="h1 text-center py-4 align-middle text-color">Contactanos</h1></div>
+                
+                <div class="col-sm-12 m-2 p-2">
+                    <label class="h4" for="name" >Nombre:</label>
+                        <input class="background-input" type="text" name="name" id="name" required>
+                </div>
+                <div class="col-sm-12 m-2 p-2">
+                    <label class="h4" for="lastname">Apellido:</label>
+                        <input class="background-input" type="text" name="lastname" id="lastname" required>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 m-2 p-2">
+                        <label class="h4 " for="email" class="px-4">Email:  </label>
+                            <input class="background-input" type="email" name="email" id="email" required>
+                    </div>
+                    <div class="col-sm-12 m-2 p-2">
+                        <p class="h4">¿Queres recibir nuevas noticias?</p>
+                        <!-- <select name="noticias" id="">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                            </select> -->
+                                <div class="form-check">
+                                    <input class="form-check-input bot-input " type="radio" name="radio-noticia" value="" id="rad-not1" checked>
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        <p class="h4">Si</p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input bot-input" type="radio" name="radio-noticia" value="" id="rad-not2" >
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        <p class="h4">No</p>
+                                    </label>
+                                </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="h4"  for="textarea">Mensaje:</label><br>
+                    <div class="col-sm-12 m-2 p-2">
+                            <textarea class="background-input" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="col-sm-12 m-2 p-2">
+                        <input class="h4 background-input " type="reset" value="Borrar Todo">
+                            <input class="h4 background-input" type="submit" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer id="footer">       
         <div class="container-fluid footer-container">
             <div class="footer-ul">
                 <ul class="ul-redes">
-                    <li><a class="icon-footer icon-color" href="#" ><i class="fa-solid fa-arrow-up""></i></a></li>
+                    <li><a class="icon-footer icon-color" href="#" ><i class="fa-solid fa-arrow-up"></i></a></li>
                     <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
                     <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-solid fa-envelope" "></i></i></a></li>
+                    <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-solid fa-envelope"></i></i></a></li>
                 </ul>
             </div>
             <div class="footer-email">

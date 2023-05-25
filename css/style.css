@@ -14,7 +14,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .text-color{
-    color: #23022E
+    color: #23022E;
+    align
 }
 
 
@@ -27,9 +28,9 @@ body{
     
 }
 
-.container {
+/* .container {
     background-color: #ffffff;
-}
+} */
 
 .background-color{
     background-color: #ffffff;
@@ -345,6 +346,25 @@ body{
     width: 50%;
     aspect-ratio: 16/9;
     object-fit: cover;
+}
+
+/* CONTACTO */
+.container-contacto{
+    border: 4px solid #673577c1;;
+}
+
+.form-check{
+    display: flex;
+    justify-content: center;
+}
+
+.bot-input{
+    display: flex;
+    justify-content: center;
+}
+
+.background-input{
+    background-color: #6735777e;
 }
 
 /* MEDIA QUERY */
