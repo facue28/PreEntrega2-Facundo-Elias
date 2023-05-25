@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background-color:#f1faee;
+    background-color:#dfe4ddbd;
 }
 
 /* body{
@@ -41,7 +41,8 @@ body{
 
 
 .container-ubicacion{
-    background-color:rgba(126, 127, 154, 0.7);
+    /* background-color:rgba(126, 127, 154, 0.7); */    
+    background-color: #6c4774;
     display: flex; 
     justify-content: space-between;
 }
@@ -183,7 +184,7 @@ body{
     width: 100%;
     height: 15rem;
     /* background-color:#e4d9ff; */
-    background-color:#7E7F9A;
+    background-color:#6c4774;
     opacity: 0.7;
     justify-content: center;
 }
@@ -252,6 +253,9 @@ body{
 /* SOBRE EL BLOG */
 
 /* HEAD */
+.row-borde{
+    border-bottom: 0.5rem solid black;
+}
 .container-sobre-blog{
     display: flex;
 }
@@ -306,6 +310,57 @@ body{
 .background-row{
     background-color: #ffffff;
 }
+
+/* RECETAS */
+.row{
+    display: flex;
+}
+
+.container-titulo{
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    background-color:#6c4774;
+}
+
+.container-texto{
+    padding: 0;
+    height: 4rem;
+    background-color: #9e70a2;
+    align-items: center;
+}
+
+.borde-col-receta{
+    display: flex;
+    background-color: #d6c7dd;
+    border-radius: 2rem;
+}
+
+.ul-receta{
+    display: flex;
+    justify-content: center;
+}
+.ul-receta li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    font-size: 2rem;
+}
+
+.titulo-receta{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.img-receta{
+    width: 80%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (max-width:990px) {
@@ -314,11 +369,8 @@ body{
         align-items: center;
     }
     .cont-izq {
-        padding-left: 0;
-    
+        padding-left: 0;   
+    }
 }
-
-
-    
 
 
