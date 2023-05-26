@@ -15,8 +15,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .text-color{
     color: #23022E;
-    align
-}
+} 
 
 
 body{
@@ -25,12 +24,12 @@ body{
     background-position:center center;
     background-repeat:no-repeat ;
     background-attachment:fixed ;
-    
 }
 
 .background-color{
     background-color: #ffffff;
 }
+
 /* HEADER */
 
 .nav-container{
@@ -44,7 +43,6 @@ body{
     display: flex;
     align-items: end;
     padding-bottom: 0;
-  /* rgba(64, 0, 128, 0.2); */
 }
 
 
@@ -194,9 +192,9 @@ body{
 .row-borde{
     border-bottom: 0.5rem solid black;
 }
+
+
 /* SOBRE EL BLOG */
-
-
 
 .container-sobre-blog{
     display: flex;
@@ -332,67 +330,3 @@ body{
     }
 }
 
-
-/* .footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-ul{
-    display: flex;
-    justify-content: start;
-    width: 50%;
-}
-
-.ul-redes{
-    display: flex;
-}
-
-.icon-footer{
-    font-size: 3rem;
-}
-
-.footer-email{
-    display: flex;
-    justify-content: end;
-    width: 50%;
-    font-size:1rem;
-}
-
-.footer-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    flex-wrap: wrap;
-}
-
-.footer-email label{
-    display: flex;
-    justify-content: center;
-    width: 28rem;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.footer-email input{
-    display: flex;
-    justify-content: center;
-    width: 25rem;
-    height: 3rem;
-    margin-top: 1rem;
-    outline: none;
-    border: none;
-    border-radius: 0.5rem;
-    padding-left: 1.2rem;
-    background-color: #673577
-}
-
-.ul-redes li{
-    padding: .5rem;
-    list-style: none;
-}
-
-.icon-color{
-    color: #673577;
-} */
