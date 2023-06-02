@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+header .nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  height: 20rem;
+}
+header .nav-container .logo-ubicacion {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+header .nav-container .logo-ubicacion .nav-logo {
+  display: flex;
+  align-items: center;
+}
+header .nav-container .logo-ubicacion .nav-logo .img-logo {
+  width: 100%;
+}
+header .nav-container .navbar-pers {
+  display: flex;
+  align-items: end;
+  padding-bottom: 0;
+}
+header .nav-container .navbar-pers ul {
+  padding: 0 1rem;
+}
+header .nav-container .navbar-pers ul li a {
+  padding: 0;
+  font-size: 2.2rem;
+  color: #23022E;
+}
+header .nav-container .navbar-pers ul li a:hover {
+  color: #ab22b5;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+footer .footer-ul {
+  display: flex;
+  justify-content: start;
+  width: 50%;
+}
+footer .footer-ul .ul-redes {
+  display: flex;
+}
+footer .footer-ul .ul-redes li {
+  padding: 0.5rem;
+  list-style: none;
+}
+footer .footer-ul .ul-redes li a {
+  font-size: 3rem;
+  color: #673577;
+}
+footer .footer-email {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  font-size: 1rem;
+}
+footer .footer-email .footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-right: 2rem;
+}
+footer .footer-email .footer-div input {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #673577;
+}
+
+body {
+  background-image: url(../img/fotoFondoWeb.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=styles.css.map */

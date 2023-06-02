@@ -1,0 +1,47 @@
+$text-color:#23022E;
+$color1:#673577;
+footer{
+    position: relative;
+    bottom: 0;
+    
+    .footer-ul{
+        display: flex;
+        justify-content: start;
+        width: 50%;
+        .ul-redes{
+            display: flex;
+            li{
+                padding: 0.5rem;
+                list-style: none;
+                a{
+                    font-size: 3rem;
+                    color:$color1;
+                }
+            }
+        }
+    }
+    .footer-email{
+        display: flex;
+        justify-content: end;
+        width: 80%;
+        font-size: 1rem;
+        .footer-div{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding-right: 2rem;
+            input{
+                display: flex;
+                justify-content: start;
+                width: 100%;
+                height: 3rem;
+                margin-top: 1rem;
+                outline: none;
+                border: none;
+                border-radius: 0.5rem;
+                background-color:$color1;
+            }
+        }
+    }
+}
+

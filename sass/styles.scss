@@ -1,0 +1,22 @@
+@use 'assets/reset.scss';
+@use 'assets/header.scss';
+@use 'assets/footer.scss';
+@use 'index';
+$margin:0;
+$font-family:'Roboto', sans-serif;
+$font-size: 62.5%;
+$titulo-color:#23022E;
+$text-color:#23022E;
+$background-color:#ffffff;
+
+@mixin body-config {
+    background-image:url(../img/fotoFondoWeb.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat ;
+    background-attachment:fixed ;
+}
+
+body{
+    @include body-config()
+}
