@@ -1,12 +1,6 @@
-* {
-  margin: 0;
+header {
+  margin-bottom: 3rem;
 }
-
-html {
-  font-family: "Roboto", sans-serif;
-  font-size: 62.5%;
-}
-
 header .nav-container {
   display: flex;
   justify-content: space-between;
@@ -45,6 +39,11 @@ header .nav-container .navbar-pers ul li a:hover {
 footer {
   position: relative;
   bottom: 0;
+  margin: 1rem 0;
+}
+footer .col-footer {
+  display: flex;
+  align-items: center;
 }
 footer .footer-ul {
   display: flex;
@@ -86,7 +85,104 @@ footer .footer-email .footer-div input {
   background-color: #673577;
 }
 
-body {
+.section-video .container .row div {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  width: 90%;
+}
+
+.section-noticias {
+  margin: 10rem 0;
+}
+.section-noticias h1 {
+  padding: 3rem 0;
+}
+.section-noticias .row {
+  padding: 3rem 0;
+}
+.section-noticias .row div {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.section-noticias .row div .img-tam {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+.section-noticias .row div .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.section-noticias .row div .card-body .card-text {
+  margin: 1rem 0;
+}
+.section-noticias .row div .card-body a {
+  align-items: center;
+  margin-top: 1.5rem;
+  background-color: rgba(91, 5, 119, 0.9725490196);
+  color: #ffffff;
+}
+.section-noticias .row div .card-body a .btn-primary {
+  display: flex;
+  justify-content: end;
+  margin-top: auto;
+  padding: 0.5rem 1rem;
+  width: 40%;
+  border: none;
+  cursor: pointer;
+}
+
+.video-section {
+  background-color: #ffffff;
+}
+.video-section .container .row div {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  width: 90%;
+}
+
+.container-blog {
+  background-color: #ffffff;
+  margin: 10rem 0;
+  padding: 3rem 0;
+}
+.container-blog h1 {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #23022E;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #23022E;
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: #23022E;
+}
+
+.background-color {
+  background-color: #ffffff;
+}
+
+.body-container {
+  width: 100%;
+  padding: 0;
   background-image: url(../img/fotoFondoWeb.jpg);
   background-size: cover;
   background-position: center center;

@@ -1,9 +1,14 @@
 $text-color:#23022E;
 $color1:#673577;
+
 footer{
     position: relative;
     bottom: 0;
-    
+    margin: 1rem 0;
+    .col-footer{
+        display: flex;
+        align-items: center;
+    }
     .footer-ul{
         display: flex;
         justify-content: start;

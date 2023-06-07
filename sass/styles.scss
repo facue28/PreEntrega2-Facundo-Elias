@@ -1,22 +1,49 @@
-@use 'assets/reset.scss';
+
 @use 'assets/header.scss';
 @use 'assets/footer.scss';
-@use 'index';
-$margin:0;
-$font-family:'Roboto', sans-serif;
-$font-size: 62.5%;
-$titulo-color:#23022E;
+@use 'index.scss';
+@use 'sobre-el-blog';
+// $margin:0;
+// $font-family:'Roboto', sans-serif;
+// $font-size: 62.5%;
+// $titulo-color:#23022E;
 $text-color:#23022E;
 $background-color:#ffffff;
 
-@mixin body-config {
+*{
+    margin: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    
+}
+h1 {
+    font-size:4rem ;
+    color: $text-color;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: $text-color;
+}
+
+h3 {
+    font-size: 1.7rem;
+    color: $text-color;
+}
+
+.background-color {
+    background-color:$background-color ;
+}
+
+// .body-container 
+.body-container{
+    width: 100%;
+    padding: 0;
     background-image:url(../img/fotoFondoWeb.jpg);
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat ;
     background-attachment:fixed ;
-}
-
-body{
-    @include body-config()
 }
