@@ -1,0 +1,29 @@
+.container-recetas{
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 10rem 0;
+    h1{
+        text-align: center;
+        margin: 3rem 0;
+    }
+    .row{
+        display: flex;
+        div{
+            margin: 1.5rem 0;
+            .card-body{
+                margin: 1rem 0;
+                h3{
+                    text-align: start;
+                    font-weight: bold;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+                a{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    
+}

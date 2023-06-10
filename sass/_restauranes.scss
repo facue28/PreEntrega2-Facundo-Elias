@@ -1,0 +1,45 @@
+.container-restauranes{
+    background-color: #ffffff;
+    padding: 2rem 0;
+    margin: 3rem 0;
+    h1 {
+        text-align: center;
+        padding: 3rem 0;
+    }
+    .row{
+        margin: 5rem 0;
+        display: flex;
+        justify-content:space-between;
+        .col-1{
+            display: flex;
+            margin: 1rem 0 ;
+            padding: 4rem;
+            width: 80%;
+            img{
+                // width: 80%;
+            }
+        }
+        .col-2{
+            display: flex;
+            margin: 1rem 0;
+            padding: 4rem;
+            width: 80%;
+            iframe{
+                aspect-ratio: 4/4;
+            }
+        }
+        .col-3{
+            display: flex;
+            margin: 1rem 0;
+            padding: 4rem;
+            width: 80%;
+            .carousel-item{
+                .img-carrusel{
+                    aspect-ratio: 4/4;
+                    object-fit: cover;
+                }
+            }
+            
+        }
+    }
+}

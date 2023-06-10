@@ -38,8 +38,11 @@ header .nav-container .navbar-pers ul li a:hover {
 
 footer {
   position: relative;
+  background-color: #ffffff;
   bottom: 0;
   margin: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 footer .col-footer {
   display: flex;
@@ -134,6 +137,7 @@ footer .footer-email .footer-div input {
 }
 
 .video-section {
+  margin: 3rem 0;
   background-color: #ffffff;
 }
 .video-section .container .row div {
@@ -150,6 +154,180 @@ footer .footer-email .footer-div input {
 }
 .container-blog h1 {
   text-align: center;
+}
+.container-blog .row {
+  margin-top: 8rem;
+}
+.container-blog .row .container-izquierdo {
+  display: flex;
+}
+.container-blog .row .container-izquierdo .texto-izquierdo {
+  width: 80%;
+  height: 100%;
+  font-size: 3.2rem;
+  padding-left: 7rem;
+}
+.container-blog .row .container-izquierdo .texto-izquierdo p {
+  color: rgba(35, 2, 46, 0.9725490196);
+  margin: 0;
+}
+.container-blog .row .container-derecho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2rem;
+}
+.container-blog .row .container-derecho .container-imagen {
+  padding-left: 7rem;
+}
+.container-blog .row .container-derecho .container-imagen img {
+  aspect-ratio: 2/3;
+  height: 60rem;
+  object-fit: cover;
+}
+.container-blog .boton-contacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.container-blog .boton-contacto a {
+  background-color: rgba(91, 5, 119, 0.9725490196);
+  color: #ffffff;
+}
+
+.container-restauranes {
+  background-color: #ffffff;
+  padding: 2rem 0;
+  margin: 3rem 0;
+}
+.container-restauranes h1 {
+  text-align: center;
+  padding: 3rem 0;
+}
+.container-restauranes .row {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container-restauranes .row .col-1 {
+  display: flex;
+  margin: 1rem 0;
+  padding: 4rem;
+  width: 80%;
+}
+.container-restauranes .row .col-2 {
+  display: flex;
+  margin: 1rem 0;
+  padding: 4rem;
+  width: 80%;
+}
+.container-restauranes .row .col-2 iframe {
+  aspect-ratio: 4/4;
+}
+.container-restauranes .row .col-3 {
+  display: flex;
+  margin: 1rem 0;
+  padding: 4rem;
+  width: 80%;
+}
+.container-restauranes .row .col-3 .carousel-item .img-carrusel {
+  aspect-ratio: 4/4;
+  object-fit: cover;
+}
+
+.container-recetas {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 10rem 0;
+}
+.container-recetas h1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+.container-recetas .row {
+  display: flex;
+}
+.container-recetas .row div {
+  margin: 1.5rem 0;
+}
+.container-recetas .row div .card-body {
+  margin: 1rem 0;
+}
+.container-recetas .row div .card-body h3 {
+  text-align: start;
+  font-weight: bold;
+}
+.container-recetas .row div .card-body p {
+  font-size: 1.5rem;
+}
+.container-recetas .row div .card-body a {
+  font-size: 1.5rem;
+}
+
+.container-contacto {
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+.container-contacto form {
+  -webkit-box-shadow: -10px 9px 17px 3px rgb(0, 0, 0);
+  -moz-box-shadow: -10px 9px 17px 3px rgb(0, 0, 0);
+  box-shadow: -10px 9px 17px 3px rgb(0, 0, 0);
+  padding: 5rem 0;
+  margin: 3rem 0;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.container-contacto form .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.container-contacto form .container h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+.container-contacto form .container .section, .container-contacto form .container .section-email {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.container-contacto form .container .section input, .container-contacto form .container .section-email input {
+  margin-left: 1rem;
+}
+.container-contacto form .container .section-email {
+  display: flex;
+  flex-direction: column;
+}
+.container-contacto form .container .section-email h3 {
+  text-align: center;
+}
+.container-contacto form .container .section-email .form-check {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.container-contacto form .container .section-email .form-check input {
+  margin-right: 1rem;
+}
+.container-contacto form .container .section-textarea {
+  display: flex;
+  flex-direction: column;
+}
+.container-contacto form .container .section-textarea label {
+  text-align: center;
+}
+.container-contacto form .container .section-botton {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.container-contacto form .container .section-botton input {
+  margin: 1rem;
+  background-color: rgba(91, 5, 119, 0.9725490196);
+  color: #ffffff;
 }
 
 * {
@@ -173,6 +351,11 @@ h2 {
 
 h3 {
   font-size: 1.7rem;
+  color: #23022E;
+}
+
+h4 {
+  font-size: 1.2rem;
   color: #23022E;
 }
 

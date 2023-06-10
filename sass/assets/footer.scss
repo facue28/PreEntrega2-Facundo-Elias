@@ -3,8 +3,11 @@ $color1:#673577;
 
 footer{
     position: relative;
+    background-color: #ffffff;
     bottom: 0;
     margin: 1rem 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     .col-footer{
         display: flex;
         align-items: center;

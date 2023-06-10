@@ -3,6 +3,11 @@
 @use 'assets/footer.scss';
 @use 'index.scss';
 @use 'sobre-el-blog';
+@use 'restauranes';
+@use 'recetas';
+@use 'contacto';
+@use 'milanesaBerenjena';
+@use 'tortaChocolate';
 // $margin:0;
 // $font-family:'Roboto', sans-serif;
 // $font-size: 62.5%;
@@ -30,6 +35,11 @@ h2 {
 
 h3 {
     font-size: 1.7rem;
+    color: $text-color;
+}
+
+h4 {
+    font-size: 1.2rem;
     color: $text-color;
 }
 
