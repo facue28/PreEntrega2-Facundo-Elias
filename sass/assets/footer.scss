@@ -1,16 +1,30 @@
-$text-color:#23022E;
-$color1:#673577;
+
+$text-color:#23022ef8;
+$text-botton:#5b0577f8;
+$bground-color:#ffffff;
+
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+
 
 footer{
     position: relative;
-    background-color: #ffffff;
+    background-color: $bground-color;
     bottom: 0;
     margin: 1rem 0;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
     .col-footer{
         display: flex;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
+        @include mobile {
+            display: flex;
+            justify-content: center;
+        }
     }
     .footer-ul{
         display: flex;
@@ -18,38 +32,79 @@ footer{
         width: 50%;
         .ul-redes{
             display: flex;
+            @include mobile {
+                display: flex;
+                justify-content: center;
+                padding: 0;
+            }
             li{
                 padding: 0.5rem;
                 list-style: none;
                 a{
                     font-size: 3rem;
-                    color:$color1;
+                    color:$text-botton;
                 }
             }
         }
     }
-    .footer-email{
+    .col-list{
+        @include mobile {
+            display: flex;
+            justify-content: center;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            @include mobile {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            padding-bottom: 1rem;
+        }
+            li{
+                list-style: none;
+                padding-left: 1rem;
+                a{
+                    text-decoration: none;
+                    color: $text-botton;
+                    font-weight: bold;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .col-mail{
         display: flex;
         justify-content: end;
-        width: 80%;
-        font-size: 1rem;
-        .footer-div{
+        @include mobile {
             display: flex;
-            flex-direction: column;
+            justify-content: center;
+        }
+        .footer-email{
+            display: flex;
             justify-content: end;
-            padding-right: 2rem;
-            input{
+            width: 80%;
+            @include mobile {
+                justify-content: center;
+            }
+            font-size: 1rem;
+            .footer-div{
                 display: flex;
-                justify-content: start;
-                width: 100%;
-                height: 3rem;
-                margin-top: 1rem;
-                outline: none;
-                border: none;
-                border-radius: 0.5rem;
-                background-color:$color1;
+                flex-direction: column;
+                justify-content: end;
+                padding-right: 2rem;
+                input{
+                    display: flex;
+                    justify-content: start;
+                    width: 100%;
+                    height: 3rem;
+                    margin-top: 1rem;
+                    outline: none;
+                    border: none;
+                    border-radius: 0.5rem;
+                    background-color:$text-botton;
+                }
             }
         }
     }
 }
-

@@ -1,173 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="description" content="Blog de comida vegana. Restauranes con recetas basadas en plantas">
+    <meta name="keywords" content="blog, vegano, restauranes, ubicacion, imagenes">
+    <title>Blog de comida vegana - Restauranes</title>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Restauranes</title>
 </head>
 <div class="container-fluid body-container">
+
     <body>
         <!-- HEADER -->
         <header id="header">
             <div class="container-fluid nav-container container-ubicacion">
                 <div class="logo-ubicacion">
-                    <a class="navbar-brand nav-logo" href="#"><img src="../img/logo14-05-removebg-preview.png" alt="" class="img-logo"></a>
+                    <a class="navbar-brand nav-logo" href="#"><img src="../img/logo14-05-removebg-preview.png" alt=""
+                            class="img-logo"></a>
                 </div>
-                
+
                 <nav class="navbar navbar-expand-lg navbar-pers ">
                     <div class="container-fluid ">
-                        
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link " href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/sobre-el-blog.html">Sobre el blog</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="../pages/Restauranes.html">Restaurantes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/recetas.html" >Receteas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/contacto.html" >Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link " href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/sobre-el-blog.html">Sobre el blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/Restauranes.html">Restaurantes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/recetas.html">Receteas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>
         </header>
-        <!-- HEADER --> 
-            
+        <!-- HEADER -->
         <main>
             <div class="container-fluid container-restauranes">
                 <h1>Restauranes</h1>
                 <!-- ROW 1 -->
-                <div class="row ">
+                <div class="row" data-aos="zoom-out">
+                    <h2>Gordo Vegano</h2>
                     <div class="col-sm col-1">
                         <a href="https://www.instagram.com/gordo.vegano/?hl=es" target="_blank">
-                        <img src="https://scontent.fros9-2.fna.fbcdn.net/v/t1.6435-9/115791729_121997439584844_1442257345528017386_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHcs2ck1PXGNTrPhvXorvXM8axWyGVb7XvxrFbIZVvte_GjzMbzcd7jhX-0FBpBKRw&_nc_ohc=xRZKOoqyyyAAX_Gitm-&_nc_ht=scontent.fros9-2.fna&oh=00_AfBUWgVpd7gBcd0aF3QmG_KRppcKnB0fo88_DlyLu1B9_g&oe=64937D16" class="img-fluid  rounded" alt="Responsive image"></a>
+                            <img src="https://scontent.fros9-2.fna.fbcdn.net/v/t1.6435-9/115791729_121997439584844_1442257345528017386_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHcs2ck1PXGNTrPhvXorvXM8axWyGVb7XvxrFbIZVvte_GjzMbzcd7jhX-0FBpBKRw&_nc_ohc=xRZKOoqyyyAAX_Gitm-&_nc_ht=scontent.fros9-2.fna&oh=00_AfBUWgVpd7gBcd0aF3QmG_KRppcKnB0fo88_DlyLu1B9_g&oe=64937D16"
+                                class="img-fluid  rounded" alt="logo del restaurante"></a>
                     </div>
                     <div class="col-sm col-2 ">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1642.737724658019!2d-58.4632825!3d-34.5668344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb70119ef6779%3A0xcdbcbb011cc3cab3!2sGordo%20Vegano!5e0!3m2!1ses-419!2sar!4v1682363093811!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded img-fluid"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1642.737724658019!2d-58.4632825!3d-34.5668344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb70119ef6779%3A0xcdbcbb011cc3cab3!2sGordo%20Vegano!5e0!3m2!1ses-419!2sar!4v1682363093811!5m2!1ses-419!2sar"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded img-fluid"></iframe>
                     </div>
                     <div class="col-sm col-3">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="../img/entradaGordoVegano.jpg" class="d-block w-100 img-carrusel" alt="...">
-                                </div>
-                            <div class="carousel-item">
-                                <img src="../img/hamburGordoVegano.jpg" class="d-block w-100 img-carrusel" alt="...">
+                                    <img src="../img/entradaGordoVegano.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="../img/panchoGordoVegano.jpg" class="d-block w-100 img-carrusel" alt="...">
-                            </div>
+                                    <img src="../img/hamburGordoVegano.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/panchoGordoVegano.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- ROW 1 -->
-                <div class="row">
+                <div class="row" data-aos="zoom-out">
+                    <h2>Mudra</h2>
                     <div class="col-sm col-1">
                         <a href="https://www.instagram.com/mudraplantbased/?hl=es" target="_blank">
-                        <img src="../img/mudra-logo.jpg" class="img-fluid  img-restaurant rounded" alt="Responsive image"></a>
+                            <img src="../img/mudra-logo.jpg" class="img-fluid  img-restaurant rounded"
+                                alt="logo del restaurante"></a>
                     </div>
                     <div class="col-sm col-2">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16671.619869613995!2d-58.43704940810209!3d-34.59734864221132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4441ee4b61%3A0x6f6b289eef6902ce!2sMUDR%C3%81%20Plant%20Based%20By%20Matthew%20Kenney!5e0!3m2!1ses-419!2sar!4v1682363451559!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded img-fluid"></iframe>
-                    </div>
-                    <div class="col-sm col-3">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/mudra-carr-1.jpg" class="d-block w-100 img-carrusel" alt="...">
-                                </div>
-                            <div class="carousel-item">
-                                <img src="../img/mudra-carr-2.jpg" class="d-block w-100 img-carrusel" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                <img src="../img/mudra-carr-3.jpg" class="d-block w-100 img-carrusel" alt="...">
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ROW 1 -->
-                <div class="row">
-                    <div class="col-sm col-1">
-                        <a href="https://www.instagram.com/joyburgers.ar/?hl=es" class="_blank">
-                        <img src="../img/joy-logo (1).png" class="img-fluid  img-restaurant rounded" alt="Responsive image"></a>
-                    </div>
-                    <div class="col-sm col-2">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1642.737724658019!2d-58.4632825!3d-34.5668344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb70119ef6779%3A0xcdbcbb011cc3cab3!2sGordo%20Vegano!5e0!3m2!1ses-419!2sar!4v1682363093811!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded img-fluid map-tamaño"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16671.619869613995!2d-58.43704940810209!3d-34.59734864221132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4441ee4b61%3A0x6f6b289eef6902ce!2sMUDR%C3%81%20Plant%20Based%20By%20Matthew%20Kenney!5e0!3m2!1ses-419!2sar!4v1682363451559!5m2!1ses-419!2sar"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded img-fluid"></iframe>
                     </div>
                     <div class="col-sm col-3">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="../img/joy-carr-1.jpg" class="d-block w-100 img-carrusel" alt="...">
-                                </div>
-                            <div class="carousel-item">
-                                <img src="../img/joy-carr-2.jpg" class="d-block w-100 img-carrusel" alt="...">
+                                    <img src="../img/mudra-carr-1.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="../img/joy-carr-3.jpg" class="d-block w-100 img-carrusel" alt="...">                                </div>
+                                    <img src="../img/mudra-carr-2.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/mudra-carr-3.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ROW 1 -->
+                <div class="row" data-aos="zoom-out">
+                    <h2>Joy burguer</h2>
+                    <div class="col-sm col-1">
+                        <a href="https://www.instagram.com/joyburgers.ar/?hl=es" class="_blank">
+                            <img src="../img/joy-logo (1).png" class="img-fluid  img-restaurant rounded"
+                                alt="logo del restaurante"></a>
+                    </div>
+                    <div class="col-sm col-2">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1642.737724658019!2d-58.4632825!3d-34.5668344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb70119ef6779%3A0xcdbcbb011cc3cab3!2sGordo%20Vegano!5e0!3m2!1ses-419!2sar!4v1682363093811!5m2!1ses-419!2sar"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded img-fluid map-tamaño"></iframe>
+                    </div>
+                    <div class="col-sm col-3">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../img/joy-carr-1.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/joy-carr-2.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/joy-carr-3.jpg" class="d-block w-100 img-carrusel"
+                                        alt="plato del restaurant">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-            <!-- FOOTER -->
-        <footer> 
+        <!-- FOOTER -->
+        <footer>
             <div class="container-fluid background-color">
                 <div class="row">
                     <div class="col col-footer">
                         <div class="footer-ul">
                             <ul class="ul-redes">
-                                <li><a class="icon-footer icon-color" href="#" ><i class="fa-solid fa-arrow-up"></i></a></li>
-                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i class="fa-solid fa-envelope"></i></i></a></li>
+                                <li><a class="icon-footer icon-color" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                                </li>
+                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i
+                                            class="fa-brands fa-facebook"></i></a></li>
+                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i
+                                            class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a class="icon-footer icon-color" href="#" target="_blank"><i
+                                            class="fa-solid fa-envelope"></i></i></a></li>
                             </ul>
+                        </div>
                     </div>
-                </div>
-                    <div class="col d-flex justify-content-end">
+                    <div class="col col-list">
+                        <ul>
+                            <li>
+                                <a href="../../index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="../../pages/sobre-el-blog.html">Sobre el blog</a>
+                            </li>
+                            <li>
+                                <a href="../../pages/Restauranes.html">Restaurantes</a>
+                            </li>
+                            <li>
+                                <a href="../../pages/recetas.html">Receteas</a>
+                            </li>
+                            <li>
+                                <a href="../../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-mail">
                         <div class="footer-email">
                             <div class="footer-div">
-                                <label for="email"><h3>Quieres recibir nuevas noticias?</h3></label><br>
+                                <label for="email">
+                                    <h3>Quieres recibir nuevas noticias?</h3>
+                                </label><br>
                                 <input placeholder="email" type="email" name="" id="email">
                             </div>
                         </div>
                     </div>
-                
+
                 </div>
-                
             </div>
         </footer>
         <!-- FOOTER -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
     </body>
 </div>
+
 </html>

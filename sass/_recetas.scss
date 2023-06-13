@@ -1,3 +1,6 @@
+$text-color:#23022ef8;
+$text-botton:#5b0577f8;
+
 .container-recetas{
     background-color: #ffffff;
     padding: 2rem;
@@ -21,6 +24,9 @@
                 }
                 a{
                     font-size: 1.5rem;
+                    background-color: $text-botton;
+                    color: #ffffff;
+                    border: none;
                 }
             }
         }

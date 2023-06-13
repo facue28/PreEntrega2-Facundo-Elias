@@ -1,5 +1,15 @@
+$text-color:#23022ef8;
+$text-botton:#5b0577f8;
+$bground-color:#ffffff;
+
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+
 .container-restauranes{
-    background-color: #ffffff;
+    background-color:$bground-color;
     padding: 2rem 0;
     margin: 3rem 0;
     h1 {
@@ -10,6 +20,12 @@
         margin: 5rem 0;
         display: flex;
         justify-content:space-between;
+        h2{
+            text-align: center;
+        }
+        @include mobile{
+            justify-content: center;
+        }
         .col-1{
             display: flex;
             margin: 1rem 0 ;

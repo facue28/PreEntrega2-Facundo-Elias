@@ -1,4 +1,4 @@
-
+// @use 'assets/media-query';
 @use 'assets/header.scss';
 @use 'assets/footer.scss';
 @use 'index.scss';
@@ -8,21 +8,21 @@
 @use 'contacto';
 @use 'milanesaBerenjena';
 @use 'tortaChocolate';
-// $margin:0;
-// $font-family:'Roboto', sans-serif;
-// $font-size: 62.5%;
-// $titulo-color:#23022E;
-$text-color:#23022E;
-$background-color:#ffffff;
+
+$text-color:#23022ef8;
+$text-botton:#5b0577f8;
+$bground-color:#ffffff;
 
 *{
     margin: 0;
+    padding: 0;
 }
+
 html{
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
-    
 }
+
 h1 {
     font-size:4rem ;
     color: $text-color;
@@ -43,9 +43,11 @@ h4 {
     color: $text-color;
 }
 
-.background-color {
-    background-color:$background-color ;
+li {
+    font-size: 1.4rem;
+    color: $text-color;
 }
+
 
 // .body-container 
 .body-container{
@@ -57,3 +59,4 @@ h4 {
     background-repeat:no-repeat ;
     background-attachment:fixed ;
 }
+

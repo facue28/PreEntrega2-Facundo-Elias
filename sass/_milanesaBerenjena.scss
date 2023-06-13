@@ -1,0 +1,82 @@
+
+$text-color:#23022ef8;
+$text-botton:#5b0577f8;
+$bground-color:#ffffff;
+
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+.container-receta{
+    margin: 3rem 0;
+    padding: 3rem 0;
+    .row{
+        padding: 0;
+        h1{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            color:$text-color ;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            margin: 3rem 0rem;
+            /// no funciona el "padding:3rem 0"
+            img{
+                width: 50%;
+                aspect-ratio: 4/3;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.container-pasos{
+    background-color:$bground-color;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding: 3rem 0;
+    .row{
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        .col-ingredientes2{
+            display: flex;
+            justify-content: center;
+            padding: 2rem 5rem;
+            @include mobile{
+                justify-content: start;
+            }
+            @include tablet{
+                justify-content: start;
+            }
+            ul{
+                list-style: none;
+            }
+        }
+        .col-receta2{
+            display: flex;
+            justify-content: center;
+            padding-right: 20rem;
+            padding-bottom: 3rem;
+            @include mobile{
+                padding: 0 5rem;
+            }
+            @include tablet {
+                padding: 0 5rem;
+            }
+            ol{
+            list-style: none;
+            }
+        }
+    }
+}
